@@ -31,7 +31,11 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
-        minSdkVersion 24
+        applicationId "com.example.ar_measure_app"
+        minSdkVersion 24  // <-- change this from 21 to 24
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutter.versionCode
+        versionName flutter.versionName        
     }
 }
 

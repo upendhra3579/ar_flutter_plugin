@@ -38,6 +38,9 @@ android {
         versionCode flutter.versionCode
         versionName flutter.versionName        
     }
+    kotlinOptions {
+        jvmTarget = "11"
+    }
 }
 
 dependencies {
